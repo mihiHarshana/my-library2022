@@ -1,5 +1,5 @@
 import {Row, Col, Image, Container} from "react-bootstrap";
-import welcomeImage from '../resources/images/welcome_image.jpg';
+import welcomeImage from '../resources/images/welcome-image.jpg';
 
 const Welcome = () => {
   return (
