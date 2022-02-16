@@ -1,0 +1,36 @@
+.author-list {
+  .hr {
+    height: 2px;
+  }
+}
+.edit {
+  color:#ee8e26;
+  cursor: pointer;
+  width: 20px !important;
+  height: 20px !important;
+
+}
+
+
+.bin {
+  color: #a32728;
+  cursor: pointer;
+  width: 20px !important;
+  height: 20px !important;
+
+}
+
+
+.author-name {
+  font-size: 30px;
+}
+
+.author{
+  :hover {
+    background-color: #e7e8e7;
+  }
+}
+.plus {
+  color:#12489e;
+  cursor: pointer;
+}

@@ -1,15 +1,11 @@
 import React from 'react';
-
 import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Welcome from "./components/Welcome";
-import {Container} from "react-bootstrap";
+import MainApp from "./components/MainApp";
 
 function App() {
   return (
-
-      <Welcome/>
-
+        <MainApp />
   );
 }
 
