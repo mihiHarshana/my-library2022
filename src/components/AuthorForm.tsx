@@ -6,10 +6,10 @@ const AuthorForm: React.FC = () => {
   return (
     <React.Fragment>
       <Row>
-        <Col xs={9} lg={11} className="author-form">
+        <Col xs={10} lg={11} className="author-form">
           <h5>Create Author</h5>
         </Col>
-        <Col xs={2} lg={1}>
+        <Col xs={1} lg={1}>
           <XCircle className="xclose" />
         </Col>
 
@@ -17,7 +17,7 @@ const AuthorForm: React.FC = () => {
           <Form>
             <Form.Group className="mb-3" controlId="authorName">
               <Form.Label className="author-label">Author Name</Form.Label>
-              <Form.Control type="text" />
+              <Form.Control required type="text" className="author-text-field" />
             </Form.Group>
             <Button className="float-end" variant="primary" type="submit">
               Submit

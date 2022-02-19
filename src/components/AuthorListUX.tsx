@@ -8,24 +8,24 @@ const AuthorListUX: React.FC = () => {
   return (
     <React.Fragment>
       <Row>
-        <Col className="author-list pe-1" xs={10}>
+        <Col className="author-list pe-1" xs={11} >
           <h2 className="author-list">Authors</h2>
           <hr className="hr"/>
         </Col>
-        <Col xs={10} className="py-0">
+        <Col xs={11} className="py-0">
           <Author index={"1"} name={"Author"}/>
           <Author index={"2"} name={"Author "}/>
           <Author index={"3"} name={"Author "}/>
         </Col>
       </Row>
       <Row>
-        <Col xs={12} className="px-1 pt-2">
+        <Col xs={12} lg={3} className="px-1 pt-2">
           <Plus className="plus"/>
           Add Author
         </Col>
       </Row>
       <Row>
-        <Col xs={9} className="mt-xl-3 mt-sm-0">
+        <Col xs={12} lg= {11} className="mt-xl-3 mt-sm-1">
           <AuthorForm />
         </Col>
       </Row>

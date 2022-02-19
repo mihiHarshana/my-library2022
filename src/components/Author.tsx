@@ -29,10 +29,10 @@ const Author: React.FC<AuthorsPropers> = (props) => {
     <span className="author">
       <Row>
 
-        <Col xs={8} md={10} className="pt-0">
+        <Col xs={8} md={9} className="pt-0">
           {props.index} {props.name}
         </Col>
-        <Col xs={4} md={2} className="p-0 ">
+        <Col xs={4} md={3} className="p-0">
           <Trash2 className="bin mx-1 float-end" onClick={handleDeleteOnClick}/>
           <Edit className="edit mx-1 float-end"/>
         </Col>

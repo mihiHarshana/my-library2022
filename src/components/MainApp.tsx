@@ -15,7 +15,7 @@ const MainApp: React.FC = () => {
         <Col sm={12} lg={6} p-0>
          {/* <AuthorListUX/>*/}
         </Col>
-        <Col sm={12} lg={6} p-0>
+        <Col sm={12} lg={6} className="pt-sm-3">
           <AuthorListUX/>
         </Col>
       </Row>
