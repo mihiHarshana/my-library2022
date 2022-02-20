@@ -20,7 +20,7 @@ const AuthorForm: React.FC = () => {
               <Form.Control required type="text" className="author-text-field" />
             </Form.Group>
             <Button className="float-end" variant="primary" type="submit">
-              Submit
+              Create Author
             </Button>
           </Form>
         </Col>
